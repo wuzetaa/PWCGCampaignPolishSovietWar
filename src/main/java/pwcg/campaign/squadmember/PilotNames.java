@@ -30,8 +30,8 @@ public class PilotNames
     private static ArrayList<String> lastNamesRussia = new ArrayList<String>();
 	private static ArrayList<String> firstNamesUSA = new ArrayList<String>();
 	private static ArrayList<String> lastNamesUSA = new ArrayList<String>();
-    private static ArrayList<String> firstNamesGermany = new ArrayList<String>();
-    private static ArrayList<String> lastNamesGermany = new ArrayList<String>();
+    private static ArrayList<String> firstNamesPoland = new ArrayList<String>();
+    private static ArrayList<String> lastNamesPoland = new ArrayList<String>();
     private static ArrayList<String> firstNamesItaly = new ArrayList<String>();
     private static ArrayList<String> lastNamesItaly = new ArrayList<String>();
     private static ArrayList<String> firstNamesHungary = new ArrayList<String>();
@@ -76,10 +76,10 @@ public class PilotNames
             namesFile = PWCGContext.getInstance().getDirectoryManager().getPwcgNamesDir() + "FirstNamesRussiaFemale.txt";
             read(namesFile, firstNamesRussiaFemale);
             
-            namesFile = PWCGContext.getInstance().getDirectoryManager().getPwcgNamesDir() + "LastNamesGermany.txt";
-            read(namesFile, lastNamesGermany);
-            namesFile = PWCGContext.getInstance().getDirectoryManager().getPwcgNamesDir() + "FirstNamesGermany.txt";
-            read(namesFile, firstNamesGermany);
+            namesFile = PWCGContext.getInstance().getDirectoryManager().getPwcgNamesDir() + "LastNamesPoland.txt";
+            read(namesFile, lastNamesPoland);
+            namesFile = PWCGContext.getInstance().getDirectoryManager().getPwcgNamesDir() + "FirstNamesPoland.txt";
+            read(namesFile, firstNamesPoland);
             
             namesFile = PWCGContext.getInstance().getDirectoryManager().getPwcgNamesDir() + "LastNamesItaly.txt";
             read(namesFile, lastNamesItaly);

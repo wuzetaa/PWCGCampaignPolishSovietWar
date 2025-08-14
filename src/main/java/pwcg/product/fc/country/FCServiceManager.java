@@ -40,7 +40,7 @@ public class FCServiceManager extends ArmedServiceManager implements IArmedServi
     public static String RNAS_NAME = "Royal Naval Air Service";
     public static String RAF_NAME = "Royal Air Force";
     public static String USAS_NAME = "United States Air Service";
-    public static String DEUTSCHE_LUFTSTREITKRAFTE_NAME = "Deutsche Luftstreitkrafte";
+    public static String DEUTSCHE_LUFTSTREITKRAFTE_NAME = "Lotnictwo Wojska Polskiego";
         	
     public static String LAVIATION_MILITAIRE_ICON = "ServiceFrenchArmy";
     public static String AVIATION_MILITAIRE_BELGE_ICON = "ServiceBelgianArmy";
@@ -114,7 +114,7 @@ public class FCServiceManager extends ArmedServiceManager implements IArmedServi
             List <ArmedService> germanServices = new ArrayList<ArmedService>();
             armedServicesByCountry.put(FCCountry.GERMANY_CODE, germanServices);
     
-            // Deutsche Luftstreitkräfte (Germany)
+            // Deutsche Luftstreitkrï¿½fte (Germany)
             ArmedService gas = new ArmedService(PWCGProduct.FC);
             createServiceGermanArmy(startDate, endDate, gas);
             germanServices.add(gas);
